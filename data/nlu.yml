@@ -1,0 +1,191 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: fee_structure
+  examples: |
+    - what is the fee structure?
+    - how much is the fees?
+    - how much is the fee?
+    - fees for obc
+    - obc fees
+    - fees for sc
+    - sc fees
+    - fees for st
+    - st fees
+    - fees for vj
+    - vj fees
+    - fees for dt
+    - dt fees
+    - fees for sbc
+    - sbc fees
+    - tuition fees
+    - fees for fe
+    - fees for se
+    - first year fees
+    - second year fees
+    - tell me about fees
+- intent: scholarship
+  examples: |
+    - what about scholarship
+    - are there any scholarships
+    - scholarship
+    - scholarships
+    - ebc scholarship
+    - minority scholarship
+    - are there scholarships for minority
+    - are there any schlarships available
+- intent: placement_statistics
+  examples: |
+    - how many students have been placed?
+    - placement statistics
+    - number of students getting a job
+    - number of placements
+- intent: placement_details
+  examples: |
+    - training and placement office details
+    - placement office
+    - tpo number
+    - tpo details
+    - tpo
+    - placement
+    - placement details
+- intent: recruiters
+  examples: |
+    - recruiting companies
+    - companies
+    - recruiters
+    - placement companies
+    - job recruitments
+
+- intent: notice 
+  examples: |
+    - notice?
+    - Current notice?
+    - Can I get current notice?
+- intent: HOD_COMPS 
+  examples: |
+    - Who is the HOD of Comps?
+    - HOD of Comps?
+- intent: Faculty_COMPS 
+  examples: |
+    - Can you give the list of Faculty of Computers Branch?
+    - list of Teachers in Computers Branch?
+    - Faculty of Comps?
+- intent: HOD_Elex 
+  examples: |
+    - Who is the HOD of Elex?
+    - HOD of Elex?
+- intent: Faculty_Elex 
+  examples: |
+    - Can you give the list of Faculty of Electronics Branch?
+    - list of Teachers in Electronics Branch?
+    - Faculty of Elex?
+- intent: HOD_COMPS 
+  examples: |
+    - Who is the HOD of IT?
+    - HOD of IT?
+- intent: Faculty_IT 
+  examples: |
+    - Can you give the list of Faculty of Information Technology  Branch?
+    - list of Teachers in Information Technology  Branch?
+    - Faculty of IT?
+- intent: HOD_PROD 
+  examples: |
+    - Who is the HOD of Prod?
+    - HOD of Prod?
+- intent: Faculty_Prod 
+  examples: |
+    - Can you give the list of Faculty of Production Branch?
+    - list of Teachers in Production Branch?
+    - Faculty of Prod?
+- intent: HOD_SCI 
+  examples: |
+    - Who is the HOD of Science and Humanities Department?
+    - HOD of Science and Humanities?
+- intent: Faculty_SCI 
+  examples: |
+    - Can you give the list of Faculty of Science and Humanities Branch?
+    - list of Teachers in Science and Humanities Branch?
+    - Faculty of Science and Humanities?
