@@ -1,0 +1,104 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fee query
+  steps:
+  - intent: fee_structure
+  - action: utter_fee
+
+- story: scholarship query
+  steps:
+  - intent: scholarship
+  - action: utter_scholarship
+
+- story: placement
+  steps:
+  - intent: placement_statistics
+  - action: utter_placement_statistics
+  - intent: placement_details
+  - action: utter_placement_details
+  - intent: recruiters
+  - action: utter_recruiters
+
+- story: HOD Comps
+  steps:
+  - intent: HOD_COMPS
+  - action: action_COMPS
+  
+- story: HOD IT
+  steps:
+  - intent: HOD_IT
+  - action: action_IT
+
+- story: HOD Elex
+  steps:
+  - intent: HOD_Elex
+  - action: action_Elex
+
+- story: HOD PROD
+  steps:
+  - intent: HOD_PROD
+  - action: action_PROD
+
+- story: HOD SCI
+  steps:
+  - intent: HOD_SCI
+  - action: action_SCI
+
+- story: FAC IT
+  steps:
+  - intent: Faculty_IT
+  - action: action_IT_F
+
+- story: FAC Elex
+  steps:
+  - intent: Faculty_Elex
+  - action: action_Elex_F
+
+- story: FAC PROD
+  steps:
+  - intent: Faculty_PROD
+  - action: action_PROD_F
+
+- story: FAC SCI
+  steps:
+  - intent: Faculty_SCI
+  - action: action_SCI_F
+
+- story: FAC COMPS
+  steps:
+  - intent: Faculty_COMPS
+  - action: action_COMPS_F
+
+- story: notice response 
+  steps:
+  - intent: notice
+  - action: action_aws
