@@ -1,0 +1,66 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- fee_structure
+- scholarship
+- placement_statistics
+- placement_details
+- recruiters
+- notice
+- HOD_COMPS
+- Faculty_SCI
+- HOD_IT
+- Faculty_IT
+- HOD_Elex
+- Faculty_Elex
+- HOD_PROD
+- Faculty_PROD
+- HOD_SCI
+- Faculty_COMPS
+- Faculty_Prod
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_fee:
+  - text: 'Visit this link for more details: http://frcrce.ac.in/attachments/article/344/FEES%202020-2021%20New%2015072020.pdf'
+  utter_scholarship:
+  - text: 'Visit this link for more scholarship details: http://www.frcrce.ac.in/index.php/students/student-info/scholarships'
+  utter_placement_statistics:
+  - text: 'Click here to know more about the placement statistics: http://frcrce.ac.in/index.php/students/placements/placement-statistics'
+  utter_placement_details:
+  - text: 'Mail: tpo@frcrce.ac.in Phone: 022-67114102 Mobile: 9969813735'
+  utter_recruiters:
+  - text: 'Our recruiters include TCS, JP Morgan, Morgan Stanley and a lot of other
+      reputed companies. Visit here for more details: http://frcrce.ac.in/index.php/students/placements/our-recruiters'
+
+actions:
+- action_aws
+- action_COMPS
+- action_COMPS_F
+- action_IT
+- action_IT_F
+- action_Elex_F
+- action_Elex
+- action_PROD
+- action_PROD_F
+- action_SCI
+- action_SCI_F
